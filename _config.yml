@@ -1,0 +1,10 @@
+# Site settings
+title: Just Call A Bro, Bro
+description: >
+  Sometimes you just need someone to talk to. The bro is here. He doesn't know
+  diddly-squat, but he'll listen.
+baseurl: ""
+url: "http://justcallabrobro.com"
+
+# Build settings
+markdown: kramdown

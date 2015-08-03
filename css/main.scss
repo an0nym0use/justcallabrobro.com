@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  margin-top: 1.5em;
+  font-family: 'Signika', sans-serif;
+}
+
+.hero-text, .description {
+  margin-bottom: 2em;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.call-to-action {
+  margin-bottom: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5em;
+  &.answer {
+    margin-bottom: 3em;
+  }
+}
+
+.call-button {
+  font-size: 3em;
+  font-weight: bold;
+  color: green;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+footer a {
+  color: #777;
+  text-decoration: underline;
+  &:hover {
+    color: #333;
+  }
+}
